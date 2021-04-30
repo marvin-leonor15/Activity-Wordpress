@@ -30,8 +30,6 @@
 				<button onclick = "location.href = 'http://localhost/wordpress/index.php/contact/'"button type="Contact Us" id="contact">Contact Us</button>
 				<button onclick = "location.href = 'http://localhost/wordpress/index.php/shop/'"button type="Product" id="pro">Product</button>
 				<button onclick = "location.href = 'http://localhost/wordpress/index.php/cart/'"button type="Cart" id="cart">Cart</button>
-				<button type="Sign In" id="in">Sign In</button>
-				<button type="SIGN UP" id="up">SIGN UP</button>
 				<button onclick = "location.href = 'http://localhost/wordpress/index.php/my-account/'"button type="Account" id="account">My Account</button>
 			</h1><!--headings-->
 
@@ -49,7 +47,7 @@ body{
 #home{/*for home button*/
 	color: #fff;
 	background: #337ab7;
-	margin-left: 500px;	
+	margin-left: 550px;	
 	padding: 8px;
 }
 #about{/*for about us button*/
@@ -76,22 +74,10 @@ body{
 	margin-left: 10px;	
 	padding: 8px;
 }
-#in{/*for sign in button*/
-	color: #fff;
-	background: #337ab7;
-	margin-left: 50px;	
-	padding: 8px;
-}
-#up{/*for sign up button*/
-	color: #fff;
-	background: #337ab7;
-	margin-left: 10px;	
-	padding: 8px;
-}
 #account{
 	color: #fff;
 	background: #337ab7;
-	margin-left: 1233px;	
+	margin-left: 50px;	
 	padding: 8px;	
 }
 </style>
